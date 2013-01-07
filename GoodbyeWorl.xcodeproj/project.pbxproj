@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A18A1714F69D8900D820D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A18A1614F69D8900D820D2 /* UIKit.framework */; };
+		01A18A1914F69D8900D820D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A18A1814F69D8900D820D2 /* Foundation.framework */; };
+		01A18A1B14F69D8900D820D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A18A1A14F69D8900D820D2 /* CoreGraphics.framework */; };
+		01A18A2114F69D8900D820D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A1F14F69D8900D820D2 /* InfoPlist.strings */; };
+		01A18A2314F69D8900D820D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A18A2214F69D8900D820D2 /* main.m */; };
+		01A18A2714F69D8900D820D2 /* GWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A18A2614F69D8900D820D2 /* GWAppDelegate.m */; };
+		01A18A2A14F69D8900D820D2 /* GWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A18A2914F69D8900D820D2 /* GWViewController.m */; };
+		01A18A2D14F69D8900D820D2 /* GWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A2B14F69D8900D820D2 /* GWViewController.xib */; };
+		01A18A3414F69DA900D820D2 /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3314F69DA900D820D2 /* world.png */; };
+		01A18A3714F69DFB00D820D2 /* galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3614F69DFB00D820D2 /* galaxy.jpg */; };
+		01A18A4514F69E0B00D820D2 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3814F69E0B00D820D2 /* explosion.png */; };
+		01A18A4614F69E0B00D820D2 /* spinning-earth0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3A14F69E0B00D820D2 /* spinning-earth0001.png */; };
+		01A18A4714F69E0B00D820D2 /* spinning-earth0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3B14F69E0B00D820D2 /* spinning-earth0002.png */; };
+		01A18A4814F69E0B00D820D2 /* spinning-earth0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3C14F69E0B00D820D2 /* spinning-earth0003.png */; };
+		01A18A4914F69E0B00D820D2 /* spinning-earth0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3D14F69E0B00D820D2 /* spinning-earth0004.png */; };
+		01A18A4A14F69E0B00D820D2 /* spinning-earth0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3E14F69E0B00D820D2 /* spinning-earth0005.png */; };
+		01A18A4B14F69E0B00D820D2 /* spinning-earth0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A3F14F69E0B00D820D2 /* spinning-earth0006.png */; };
+		01A18A4C14F69E0B00D820D2 /* spinning-earth0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A4014F69E0B00D820D2 /* spinning-earth0007.png */; };
+		01A18A4D14F69E0B00D820D2 /* spinning-earth0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A4114F69E0B00D820D2 /* spinning-earth0008.png */; };
+		01A18A4E14F69E0B00D820D2 /* spinning-earth0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A4214F69E0B00D820D2 /* spinning-earth0009.png */; };
+		01A18A4F14F69E0B00D820D2 /* spinning-earth0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A4314F69E0B00D820D2 /* spinning-earth0010.png */; };
+		01A18A5014F69E0B00D820D2 /* spinning-earth0011.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A18A4414F69E0B00D820D2 /* spinning-earth0011.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A18A1214F69D8900D820D2 /* GoodbyeWorl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodbyeWorl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A18A1614F69D8900D820D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01A18A1814F69D8900D820D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01A18A1A14F69D8900D820D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01A18A1E14F69D8900D820D2 /* GoodbyeWorl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodbyeWorl-Info.plist"; sourceTree = "<group>"; };
+		01A18A2014F69D8900D820D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01A18A2214F69D8900D820D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A18A2414F69D8900D820D2 /* GoodbyeWorl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoodbyeWorl-Prefix.pch"; sourceTree = "<group>"; };
+		01A18A2514F69D8900D820D2 /* GWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWAppDelegate.h; sourceTree = "<group>"; };
+		01A18A2614F69D8900D820D2 /* GWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWAppDelegate.m; sourceTree = "<group>"; };
+		01A18A2814F69D8900D820D2 /* GWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWViewController.h; sourceTree = "<group>"; };
+		01A18A2914F69D8900D820D2 /* GWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWViewController.m; sourceTree = "<group>"; };
+		01A18A2C14F69D8900D820D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GWViewController.xib; sourceTree = "<group>"; };
+		01A18A3314F69DA900D820D2 /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		01A18A3614F69DFB00D820D2 /* galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galaxy.jpg; sourceTree = "<group>"; };
+		01A18A3814F69E0B00D820D2 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		01A18A3A14F69E0B00D820D2 /* spinning-earth0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0001.png"; sourceTree = "<group>"; };
+		01A18A3B14F69E0B00D820D2 /* spinning-earth0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0002.png"; sourceTree = "<group>"; };
+		01A18A3C14F69E0B00D820D2 /* spinning-earth0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0003.png"; sourceTree = "<group>"; };
+		01A18A3D14F69E0B00D820D2 /* spinning-earth0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0004.png"; sourceTree = "<group>"; };
+		01A18A3E14F69E0B00D820D2 /* spinning-earth0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0005.png"; sourceTree = "<group>"; };
+		01A18A3F14F69E0B00D820D2 /* spinning-earth0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0006.png"; sourceTree = "<group>"; };
+		01A18A4014F69E0B00D820D2 /* spinning-earth0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0007.png"; sourceTree = "<group>"; };
+		01A18A4114F69E0B00D820D2 /* spinning-earth0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0008.png"; sourceTree = "<group>"; };
+		01A18A4214F69E0B00D820D2 /* spinning-earth0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0009.png"; sourceTree = "<group>"; };
+		01A18A4314F69E0B00D820D2 /* spinning-earth0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0010.png"; sourceTree = "<group>"; };
+		01A18A4414F69E0B00D820D2 /* spinning-earth0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0011.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A18A0F14F69D8900D820D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A18A1714F69D8900D820D2 /* UIKit.framework in Frameworks */,
+				01A18A1914F69D8900D820D2 /* Foundation.framework in Frameworks */,
+				01A18A1B14F69D8900D820D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A18A0714F69D8900D820D2 = {
+			isa = PBXGroup;
+			children = (
+				01A18A3514F69DBB00D820D2 /* assets */,
+				01A18A1C14F69D8900D820D2 /* GoodbyeWorl */,
+				01A18A1514F69D8900D820D2 /* Frameworks */,
+				01A18A1314F69D8900D820D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A18A1314F69D8900D820D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A18A1214F69D8900D820D2 /* GoodbyeWorl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A18A1514F69D8900D820D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A18A1614F69D8900D820D2 /* UIKit.framework */,
+				01A18A1814F69D8900D820D2 /* Foundation.framework */,
+				01A18A1A14F69D8900D820D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01A18A1C14F69D8900D820D2 /* GoodbyeWorl */ = {
+			isa = PBXGroup;
+			children = (
+				01A18A2514F69D8900D820D2 /* GWAppDelegate.h */,
+				01A18A2614F69D8900D820D2 /* GWAppDelegate.m */,
+				01A18A2814F69D8900D820D2 /* GWViewController.h */,
+				01A18A2914F69D8900D820D2 /* GWViewController.m */,
+				01A18A2B14F69D8900D820D2 /* GWViewController.xib */,
+				01A18A1D14F69D8900D820D2 /* Supporting Files */,
+			);
+			path = GoodbyeWorl;
+			sourceTree = "<group>";
+		};
+		01A18A1D14F69D8900D820D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A18A1E14F69D8900D820D2 /* GoodbyeWorl-Info.plist */,
+				01A18A1F14F69D8900D820D2 /* InfoPlist.strings */,
+				01A18A2214F69D8900D820D2 /* main.m */,
+				01A18A2414F69D8900D820D2 /* GoodbyeWorl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A18A3514F69DBB00D820D2 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				01A18A3814F69E0B00D820D2 /* explosion.png */,
+				01A18A3914F69E0B00D820D2 /* spinning-earth */,
+				01A18A3614F69DFB00D820D2 /* galaxy.jpg */,
+				01A18A3314F69DA900D820D2 /* world.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		01A18A3914F69E0B00D820D2 /* spinning-earth */ = {
+			isa = PBXGroup;
+			children = (
+				01A18A3A14F69E0B00D820D2 /* spinning-earth0001.png */,
+				01A18A3B14F69E0B00D820D2 /* spinning-earth0002.png */,
+				01A18A3C14F69E0B00D820D2 /* spinning-earth0003.png */,
+				01A18A3D14F69E0B00D820D2 /* spinning-earth0004.png */,
+				01A18A3E14F69E0B00D820D2 /* spinning-earth0005.png */,
+				01A18A3F14F69E0B00D820D2 /* spinning-earth0006.png */,
+				01A18A4014F69E0B00D820D2 /* spinning-earth0007.png */,
+				01A18A4114F69E0B00D820D2 /* spinning-earth0008.png */,
+				01A18A4214F69E0B00D820D2 /* spinning-earth0009.png */,
+				01A18A4314F69E0B00D820D2 /* spinning-earth0010.png */,
+				01A18A4414F69E0B00D820D2 /* spinning-earth0011.png */,
+			);
+			path = "spinning-earth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A18A1114F69D8900D820D2 /* GoodbyeWorl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A18A3014F69D8900D820D2 /* Build configuration list for PBXNativeTarget "GoodbyeWorl" */;
+			buildPhases = (
+				01A18A0E14F69D8900D820D2 /* Sources */,
+				01A18A0F14F69D8900D820D2 /* Frameworks */,
+				01A18A1014F69D8900D820D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodbyeWorl;
+			productName = GoodbyeWorl;
+			productReference = 01A18A1214F69D8900D820D2 /* GoodbyeWorl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A18A0914F69D8900D820D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GW;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Gem Designs";
+			};
+			buildConfigurationList = 01A18A0C14F69D8900D820D2 /* Build configuration list for PBXProject "GoodbyeWorl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01A18A0714F69D8900D820D2;
+			productRefGroup = 01A18A1314F69D8900D820D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A18A1114F69D8900D820D2 /* GoodbyeWorl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A18A1014F69D8900D820D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A18A2114F69D8900D820D2 /* InfoPlist.strings in Resources */,
+				01A18A2D14F69D8900D820D2 /* GWViewController.xib in Resources */,
+				01A18A3414F69DA900D820D2 /* world.png in Resources */,
+				01A18A3714F69DFB00D820D2 /* galaxy.jpg in Resources */,
+				01A18A4514F69E0B00D820D2 /* explosion.png in Resources */,
+				01A18A4614F69E0B00D820D2 /* spinning-earth0001.png in Resources */,
+				01A18A4714F69E0B00D820D2 /* spinning-earth0002.png in Resources */,
+				01A18A4814F69E0B00D820D2 /* spinning-earth0003.png in Resources */,
+				01A18A4914F69E0B00D820D2 /* spinning-earth0004.png in Resources */,
+				01A18A4A14F69E0B00D820D2 /* spinning-earth0005.png in Resources */,
+				01A18A4B14F69E0B00D820D2 /* spinning-earth0006.png in Resources */,
+				01A18A4C14F69E0B00D820D2 /* spinning-earth0007.png in Resources */,
+				01A18A4D14F69E0B00D820D2 /* spinning-earth0008.png in Resources */,
+				01A18A4E14F69E0B00D820D2 /* spinning-earth0009.png in Resources */,
+				01A18A4F14F69E0B00D820D2 /* spinning-earth0010.png in Resources */,
+				01A18A5014F69E0B00D820D2 /* spinning-earth0011.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A18A0E14F69D8900D820D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A18A2314F69D8900D820D2 /* main.m in Sources */,
+				01A18A2714F69D8900D820D2 /* GWAppDelegate.m in Sources */,
+				01A18A2A14F69D8900D820D2 /* GWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01A18A1F14F69D8900D820D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A18A2014F69D8900D820D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01A18A2B14F69D8900D820D2 /* GWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A18A2C14F69D8900D820D2 /* en */,
+			);
+			name = GWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A18A2E14F69D8900D820D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01A18A2F14F69D8900D820D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A18A3114F69D8900D820D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodbyeWorl/GoodbyeWorl-Prefix.pch";
+				INFOPLIST_FILE = "GoodbyeWorl/GoodbyeWorl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01A18A3214F69D8900D820D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodbyeWorl/GoodbyeWorl-Prefix.pch";
+				INFOPLIST_FILE = "GoodbyeWorl/GoodbyeWorl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A18A0C14F69D8900D820D2 /* Build configuration list for PBXProject "GoodbyeWorl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A18A2E14F69D8900D820D2 /* Debug */,
+				01A18A2F14F69D8900D820D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A18A3014F69D8900D820D2 /* Build configuration list for PBXNativeTarget "GoodbyeWorl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A18A3114F69D8900D820D2 /* Debug */,
+				01A18A3214F69D8900D820D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A18A0914F69D8900D820D2 /* Project object */;
+}
